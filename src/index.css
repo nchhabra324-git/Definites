@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Merriweather:wght@400;700&display=swap');
+
+:root {
+  /* Definites Brand Palette */
+  --bg-offwhite: #F4F7F6;   /* Clean, modern background */
+  --bg-white: #FFFFFF;      /* Card and sidebar background */
+  --green-main: #2C5F2D;    /* The authoritative logo green */
+  --orange-accent: #E67E22; /* The sun accent from the logo */
+  
+  /* Typography Colors */
+  --text-dark: #1A202C;     /* High contrast charcoal */
+  --text-muted: #4A5568;    /* Softer grey for descriptions */
+  --border-light: #E2E8F0;  /* Subtle dividers */
+  
+  /* Professional Shadows */
+  --shadow-sm: 0 2px 4px rgba(0,0,0,0.05);
+  --shadow-md: 0 10px 15px -3px rgba(0,0,0,0.08);
+}
+
+body {
+  background-color: var(--bg-offwhite);
+  color: var(--text-dark);
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Merriweather', serif; /* The classic "Statute" feel */
+  color: var(--green-main);
+  margin-top: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
