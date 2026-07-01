@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "definites-web",
+=======
+  "name": "definites-dashboard",
+>>>>>>> e24e8b235153d452eccf4fc91e2378d2df90125e
   "private": true,
   "version": "0.0.0",
   "type": "module",
